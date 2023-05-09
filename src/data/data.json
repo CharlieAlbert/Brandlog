@@ -1,12 +1,12 @@
 {
   "Header": {
-    "title": "AMERICAS BIRTHDAY FUND FOR HUNGER CHALLENGE.",
-    "paragraph": "Gets you a gifted $75 shopping voucher to guarantee feeding starving families.",
-    "button": "Learn more"
+    "title": "AMERICAS BIRTHDAY FUN FOR HUNGER CHALLENGE.",
+    "paragraph": "Rewards you $50 shopping gift voucher to guarantee feeding starving families.",
+    "title2": "Frequently asked questions"
   },
   "About": {
     "title": "About Us",
-    "mission": "Our Mission",
+
     "why": "Why we do it",
     "how": "How we do it",
     "who": "Who we are",
@@ -20,14 +20,82 @@
     "why2": "It’s a no-brainer; gifting all over the world is mainly exercised during birthday celebrations with 74% of Americans currently buying gifts for others so they can use them, with the current market estimated to be a staggering $162B and expected to reach $388B by 2027.",
     "paragraphWhy": "We offer a Community platform that guarantees to impact lives when you get:",
     "Why": [
-        "Birthday Shopping – With no money",
-        "Best prices - When Shopping.",
-        "Personalized Experience - When Buying",
-        "Making Money - When Serving Shoppers."
+      "Birthday Shopping – With no money",
+      "Best prices - When Shopping.",
+      "Personalized Experience - When Buying",
+      "Making Money - When Serving Shoppers."
     ]
   },
   "Works": {
     "title": "How it works",
     "paragraph": "Say goodbye to wanting something badly for your birthday but not being able to afford it or when your family and friends gifted items don’t match your Shopping Preference."
+  },
+  "Benefits": [
+    {
+      "name": "100% Assisted item sorting & suggested checkout",
+      "text": "To save you time while completing your checkouts."
+    },
+    {
+      "name": "30% Care Discount Voucher reward",
+      "text": "To save you money on your checkouts."
+    },
+    {
+      "name": "100% Relevant promotional Ads",
+      "text": "To give you peace of mind to concentrate on what matters."
+    },
+    {
+      "name": "100% Relevant promotional Ads",
+      "text": "To give you peace of mind to concentrate on what matters."
+    }
+  ],
+  "Question": {
+    "title": "Frequenly asked questions",
+    "question": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  "Mission": {
+    "title": "Our Mission",
+    "title2": "To end hunger in America and beyond",
+    "title3": "The impact on lives",
+    "text": "By unlocking new shopping possibilities to guarantee recurring donations to feed starving families.",
+    "text2": " The domino effect of us guaranteeing donation from 124million likely Birthday Shopping Fun Day Customers in America will result with us donating up to $2.3Billion Annually by 2029 to help serve meals to more than 34 million people, including 9 million children, who are food insecure in the United States through organizations established to fight hunger."
+  },
+  "Why": {
+    "title": "Why we do it",
+    "question1": "Did you happen to know? ",
+    "text": "According to the United States Department Of Agriculture, more than 34 million people, including 9 million children, in the United States Are Food Insecure. At the same time, it has been estimated that almost 800 million people worldwide don’t have enough food to eat. This is quite a staggering figure.",
+    "question": "I know you are wondering what birthdays have got to do with a hunger cause",
+    "answer": "It’s a no-brainer; gifting all over the world is mainly exercised during birthday celebrations with 74% of Americans currently buying gifts for others so they can use them, with the current market estimated to be a staggering $162B and expected to reach $388B by 2027.",
+    "continue": "Unfortunately, in most cases, during your birthday celebration two things are guaranteed to happen;",
+    "instance1": "Can you recall a time when you wanted something really bad but couldn’t afford it?",
+    "instance2": "When your family and friends gifted items that did not match your shopping preferences."
+  },
+  "How": [
+    {
+      "name": "Birthday Shopping Fun",
+      "text": "When Impacting Lives."
+    },
+    {
+      "name": "Best prices",
+      "text": "When Shopping."
+    },
+    {
+      "name": "Personalized Experience",
+      "text": "When buying"
+    },
+    {
+      "name": "Making Money",
+      "text": "When Serving Shoppers."
+    }
+  ],
+  "Who": {
+    "title": "Who we are",
+    "text": "We pride ourselves as the Care Shopping Community!",
+    "intro": "Care Shopping Community ",
+    "paragraph": "is a free membership social platform created to guarantee recurring donations for feeding starving families by enabling you to afford from $250 Birthday Shopping Fun Day Annually with no money in their pocket through a one hundred percent annual remote peer to peer two-way birthday gift pledging means with up to 90 days flexible gift pledge payment plan to give you financial peace of mind. while having equal freedom to socially interact freely with each other.",
+    "purpose": "To Democratize discounted retail buying prices with gaming to guarantee competitive prices.",
+    "vision": "Unlocking new Shopping Possibilities to impact lives, to pioneer a sustainable future of retail shopping experience.",
+    "detail": "Multi Founder with hands-on experience leading World Class people with excellent Culture Organizations.",
+    "title2": "Why the hunger mission?",
+    "detail2": "I have a big heart for people! I found it very disheartening while growing up in my motherland country Kenya where hunger is a perennial challenge, to see children die for lack of food. I decided to do something about it for the good of humanity."
   }
 }

@@ -1,9 +1,19 @@
+body {
+  line-height: 2.0;
+}
+
+.title-section {
+  height: 70vh;
+  width: 100vw;
+  background-color: #bbbbbb;
+}
+
 .intro {
   height: 60vh;
   width: inherit;
   top: 0;
   line-height: 2.0;
-  background: url(../image/memories.jpg);
+  background: url(./image/memories.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,7 +37,7 @@
 .gift {
   height: 50vh;
   width: inherit;
-  background: url(../image/seek.jpg);
+  background: url(./image/seek.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

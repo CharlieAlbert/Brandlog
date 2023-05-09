@@ -5,8 +5,14 @@ import JsonData from "./data/data.json";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import LandingPage from "./Components/landingPage";
-import About from "./Components/about/about";
 import Works from "./Components/works";
+import Subscribe from "./Components/subscribe";
+import Mission from "./Components/mission";
+import Why from "./Components/why";
+import How from "./Components/how";
+import Who from "./Components/who";
+import Contact from "./Components/contact";
+import Questions from "./Components/questions";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -28,10 +34,42 @@ function App() {
             path="/works"
             element={<Works data={landingPageData.Works} />}
           />
+          
           <Route
             exact
-            path="/about"
-            element={<About data={landingPageData.About} />}
+            path="/who"
+            element={<Who data={landingPageData.Who} />}
+          />
+          <Route
+            exact
+            path="/how"
+            element={<How data={landingPageData.How} />}
+          />
+          <Route
+            exact
+            path="/why"
+            element={<Why data={landingPageData.Why} />}
+          />
+          <Route
+            exact
+            path="/mission"
+            element={<Mission data={landingPageData.Mission} />}
+          />
+          <Route
+            exact
+            path="/question"
+            element={<Questions data={landingPageData.Question} />}
+          />
+          <Route
+            exact
+            path="/subscribe"
+            element={<Subscribe />}
+          />
+
+          <Route
+            exact
+            path="/contact"
+            element={<Contact />}
           />
         </Routes>
       </Router>

@@ -1,15 +1,19 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Footer from "./footer";
+import Navbar from "./navbar";
+import "./intro.css";
 
 const Works = (props) => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid text-center">
+      <div className="row">
+        <div className="title-section mb-5 text-center text-uppercase d-flex justify-content-center align-items-center">
+          <h1 className="">{props.data ? props.data.title : "Loading..."}</h1>
+        </div>
+      </div>
       <Container>
         <div>
-          <h1 className="my-3">
-            {props.data ? props.data.title : "Unexpected error..."}
-          </h1>
           <span className="text-start">
             {props.data ? props.data.paragraph : "Unexpected error..."}
           </span>
@@ -24,7 +28,6 @@ const Works = (props) => {
           ></iframe>
         </div>
       </Container>
-      <Footer />
     </div>
   );
 };

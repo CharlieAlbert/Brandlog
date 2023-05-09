@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./header.css";
 
 const Header = (props) => {
+  const navigate = useNavigate();
   return (
     <div className="container-fluid header text-start">
       <div className="row row1">
@@ -15,17 +17,19 @@ const Header = (props) => {
               {props.data ? props.data.paragraph : "Unexpected error..."}
             </span>
             <section>
-              <button type="button" className="btn btn-danger btn-large my-3">
-                Accept your $25 gift
+              <button
+                type="button"
+                onClick={() => {
+                  navigate("/subscribe");
+                }}
+                className="btn btn-danger px-4 py-4 my-3 fw-bold invitation"
+              >
+                Request Invitation
               </button>
             </section>
           </div>
         </div>
         <div className="col-md-2"></div>
-      </div>
-
-      <div className="row">
-        
       </div>
     </div>
   );
