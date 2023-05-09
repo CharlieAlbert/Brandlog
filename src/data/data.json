@@ -27,8 +27,14 @@
     ]
   },
   "Works": {
-    "title": "How it works",
-    "paragraph": "Say goodbye to wanting something badly for your birthday but not being able to afford it or when your family and friends gifted items don’t match your Shopping Preference."
+    "title1": "How it works",
+    "paragraph": "Say goodbye to wanting something badly for your birthday but not being able to afford it",
+    "paragraph2": "When your family and friends gifted items don’t match your Shopping Preference.",
+    "title2": "Our Mission",
+    "title3": "To end hunger in America and beyond",
+    "title4": "The impact on lives",
+    "text": "By unlocking new shopping possibilities to guarantee recurring donations to feed starving families.",
+    "text2": " The domino effect of us guaranteeing donation from 124million likely Birthday Shopping Fun Day Customers in America will result with us donating up to $2.3Billion Annually by 2029 to help serve meals to more than 34 million people, including 9 million children, who are food insecure in the United States through organizations established to fight hunger."
   },
   "Benefits": [
     {
@@ -54,20 +60,21 @@
   },
   "Mission": {
     "title": "Our Mission",
-    "title2": "To end hunger in America and beyond",
-    "title3": "The impact on lives",
-    "text": "By unlocking new shopping possibilities to guarantee recurring donations to feed starving families.",
-    "text2": " The domino effect of us guaranteeing donation from 124million likely Birthday Shopping Fun Day Customers in America will result with us donating up to $2.3Billion Annually by 2029 to help serve meals to more than 34 million people, including 9 million children, who are food insecure in the United States through organizations established to fight hunger."
+    "title2": "To end hunger in America!",
+    "text": "By Unlocking New Shopping Possibilities to Guarantee Recurring Donations to Feed Starving Families"
   },
   "Why": {
     "title": "Why we do it",
-    "question1": "Did you happen to know? ",
+    "question1": "Did you know?",
     "text": "According to the United States Department Of Agriculture, more than 34 million people, including 9 million children, in the United States Are Food Insecure. At the same time, it has been estimated that almost 800 million people worldwide don’t have enough food to eat. This is quite a staggering figure.",
     "question": "I know you are wondering what birthdays have got to do with a hunger cause",
     "answer": "It’s a no-brainer; gifting all over the world is mainly exercised during birthday celebrations with 74% of Americans currently buying gifts for others so they can use them, with the current market estimated to be a staggering $162B and expected to reach $388B by 2027.",
     "continue": "Unfortunately, in most cases, during your birthday celebration two things are guaranteed to happen;",
     "instance1": "Can you recall a time when you wanted something really bad but couldn’t afford it?",
-    "instance2": "When your family and friends gifted items that did not match your shopping preferences."
+    "instance2": "When your family and friends gifted items that did not match your shopping preferences.",
+    "title3": "The impact on lives",
+    "text2": "By unlocking new shopping possibilities to guarantee recurring donations to feed starving families.",
+    "text3": " The domino effect of us guaranteeing donation from 124million likely Birthday Shopping Fun Day Customers in America will result with us donating up to $2.3Billion Annually by 2029 to help serve meals to more than 34 million people, including 9 million children, who are food insecure in the United States through organizations established to fight hunger."
   },
   "How": [
     {

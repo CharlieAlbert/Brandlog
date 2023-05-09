@@ -11,33 +11,30 @@ const Mission = (props) => {
     setLandingPageData(JsonData);
   }, []);
   return (
-    <div className="container-fluid text-start">
-      <Navbar />
-      <div id="mission" className="row mb-5">
+    <div className="container-fluid text-center">
+      <div id="mission" className="row mb-1">
         <div className="title-section mb-5 text-center text-uppercase d-flex justify-content-center align-items-center">
           <h1 className="">{props.data ? props.data.title : "Loading..."}</h1>
         </div>
-        <div className="col-md-2"></div>
-        <div className="col-md-10 text-start">
-          <div>
-            <h2 className="text-center mb-4">
+        <div className="col-md-12">
+            <h2 className="text-capitalize text-center mb-3">
               {props.data ? props.data.title2 : "Loading..."}
             </h2>
-          </div>
           <div className="mb-5">
             <span className="mission">
               {props.data ? props.data.text : "Loading..."}
             </span>
           </div>
-          <div className="text-center">
+          <div className="">
             <h2 className="text-uppercase">
               {props.data ? props.data.title3 : "Loading..."}
             </h2>
+          </div>
+          <div>
             <span>{props.data ? props.data.text2 : "Loading..."}</span>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

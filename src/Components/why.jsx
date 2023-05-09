@@ -13,14 +13,9 @@ const Why = (props) => {
   }, []);
   return (
     <div className="container-fluid text-center">
-      <div className="text-start">
-        <Navbar />
-      </div>
+      <div className="text-start"></div>
       <div id="why">
         <div className="row mb-5">
-          <div className="title-section mb-5 text-center text-uppercase d-flex justify-content-center align-items-center">
-            <h1 className="">{props.data ? props.data.title : "Loading..."}</h1>
-          </div>
           {/* <div className="col-md-2"></div> */}
           <div className="col-md-12">
             <h2 className="text-center">
@@ -66,10 +61,18 @@ const Why = (props) => {
                 {props.data ? props.data.instance2 : "Loading..."}
               </span>
             </div>
+            <div className="my-3">
+              <h2>{props.data ? props.data.title3 : "Loading..."}</h2>
+            </div>
+            <div>
+              <span>{props.data ? props.data.text2 : "Loading..."}</span>
+            </div>
+            <div>
+              <span>{props.data ? props.data.text3 : "Loading..."}</span>
+            </div>
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

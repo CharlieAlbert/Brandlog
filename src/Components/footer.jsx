@@ -12,66 +12,20 @@ const Footer = () => {
             </div>
           </section>
           <section className="">
-            <div className="container text-center text-md-start mt-5">
+            <div className="container text-center text-md-center mt-5">
               <div class="row mt-3">
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3 text-secondary"></i>Brandlog
-                  </h6>
-                  <p>We pride ourselves as the Care Shopping Community!</p>
-                </div>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                <div class="col-md-12 mx-auto mb-4">
                   <p>
                     <a href="/contact" class="text-reset">
                       Contact Us
                     </a>
                   </p>
                   <p>
-                    <a href="/about" class="text-reset">
-                      Blogs
-                    </a>
+                    <i class="fas fa-home text-secondary"></i> Brandlogs Inc.
                   </p>
                   <p>
-                    <a href="/about" class="text-reset">
-                      How it works
-                    </a>
-                  </p>
-                </div>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-                  <p>
-                    <a href="#question" class="text-reset">
-                      FAQs
-                    </a>
-                  </p>
-                  <p className="icons">
-                    <SocialIcon network="facebook" />
-                  </p>
-                  <p>
-                    <SocialIcon network="linkedin" />
-                  </p>
-                </div>
-
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                  <p>
-                    <i class="fas fa-home me-3 text-secondary"></i> Westlands,
-                    Nairobi.
-                  </p>
-                  <p>
-                    <i class="fas fa-envelope me-3 text-secondary"></i>
-                    info@brandlogs.com
-                  </p>
-                  <p>
-                    <i class="fas fa-phone me-3 text-secondary"></i> + 254 234
-                    567 88
-                  </p>
-                  <p>
-                    <i class="fas fa-print me-3 text-secondary"></i> + 254 234
-                    567 89
+                    <i class="fas fa-envelope text-secondary"></i>
+                    94306 Palo Alto, CA, United States.
                   </p>
                 </div>
               </div>
@@ -79,10 +33,7 @@ const Footer = () => {
           </section>
 
           <div class="text-center p-4" style={{ backgroundColor: "#ebebeb" }}>
-            © 2023 Copyright:
-            <a class="text-reset fw-bold" href="/">
-              Brandlog.com
-            </a>
+            Brandlogs Inc. © Copyright 2023
           </div>
         </footer>
       </div>

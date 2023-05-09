@@ -7,6 +7,8 @@ import Benefits from "./benefits";
 import Questions from "./questions";
 import Footer from "./footer";
 import Works from "./works";
+import Mission from "./mission";
+import Why from "./why";
 
 const LandingPage = () => {
   const [landingPageData, setLandingPageData] = useState({});
@@ -17,9 +19,11 @@ const LandingPage = () => {
     <div className="text-start">
       <Navbar />
       <Header data={landingPageData.Header} />
-      <Benefits data={landingPageData.Benefits}/>
-      <Works data={landingPageData.Works}/>
-      <Questions data={landingPageData.Question}/>
+      <Benefits data={landingPageData.Benefits} />
+      <Works data={landingPageData.Works} />
+      <Mission data={landingPageData.Mission} />
+      <Why data={landingPageData.Why} />
+      <Questions data={landingPageData.Question} />
       <Footer />
     </div>
   );

@@ -4,9 +4,9 @@ import "./benefits.css";
 const Benefits = (props) => {
   return (
     <div id="benefits" className="container text-center">
-      <div className="title text-uppercase mb-5">
-        <h1>Benefits you get</h1>
-        <span>From our community platform</span>
+      <div className="title  mb-5">
+        <h1 className="text-uppercase">Benefits you get</h1>
+        <span className="text-capitalize">From community platform</span>
       </div>
 
       <div className="">
